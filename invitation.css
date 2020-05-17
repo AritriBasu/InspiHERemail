@@ -30,13 +30,15 @@ body{
 }
 #heading{
    width: 100%;
+   font-family: roboto;
+   font-weight: 600;
 }
 .inspireher{
     border-bottom:3px solid #6a2307 ;
 }
 #main-logo{
-    width: 150px;
-    height: 80px;
+    width: 160px;
+    height: 91.42px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -68,4 +70,8 @@ body{
     text-align: center;
     width:100px;
     height:50px;
+}
+.text{
+    font-family: roboto;
+    font-weight:400;
 }
