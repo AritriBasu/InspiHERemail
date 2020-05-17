@@ -45,7 +45,7 @@ body{
 .inner{
     background-color: white;
     text-align: left;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     border-top:3px solid #6a2307;
     border-bottom:3px solid #6a2307;
 }
@@ -58,6 +58,7 @@ body{
 #p3{
     border-top:3px solid #6a2307;
     padding: 5px;
+    padding-top:8px ;
 }
 #content-pic{
     width:200px;
