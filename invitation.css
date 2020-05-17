@@ -1,0 +1,70 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    padding:30px;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background-color: #e9e9df;
+    width:600px;
+    padding:10px;
+}
+
+.header{
+    margin:10px;
+    height: 60px;
+}
+#head-logo{
+    width:60px;
+    height:60px;
+}
+#heading{
+   width: 100%;
+}
+.inspireher{
+    border-bottom:3px solid #6a2307 ;
+}
+#main-logo{
+    width: 150px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.inner{
+    background-color: white;
+    text-align: left;
+    padding-bottom: 200px;
+    border-top:3px solid #6a2307;
+    border-bottom:3px solid #6a2307;
+}
+.main{
+    padding:10px;
+}
+#p2{
+    float:left;
+}
+#p3{
+    border-top:3px solid #6a2307;
+    padding: 5px;
+}
+#content-pic{
+    width:200px;
+    height:200px;
+}
+#foot-logo{
+    text-align: center;
+    width:100px;
+    height:50px;
+}
