@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: white;
+    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body{
 .inner{
     background-color: white;
     text-align: left;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     border-top:3px solid #6a2307;
     border-bottom:3px solid #6a2307;
 }
@@ -74,4 +74,33 @@ body{
 .text{
     font-family: roboto;
     font-weight:400;
+}
+.social-media{
+    background-color: #6a2307;
+    padding:5px;
+    height: 35px;
+}
+.media{
+    padding-right:50px;
+    padding-left:50px;
+}
+a.media:link
+{
+   color: white;
+   text-decoration: none;
+}
+a.media:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.media:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a.media:active
+{
+   color: white;
+   text-decoration: none;
 }
