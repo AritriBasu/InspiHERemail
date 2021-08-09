@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- Font awesome cdn-->
+    <script src="https://kit.fontawesome.com/8f48a33054.js" crossorigin="anonymous"></script>
+    <style>
+        *,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    padding:30px;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background-color: #e9e9df;
+    width:600px;
+    padding:10px;
+}
+
+.header{
+    margin:10px;
+    height: 60px;
+}
+#head-logo{
+    height:80px;
+    width: 80px;
+}
+#heading{
+   width: 100%;
+   font-family: roboto;
+   font-weight: 600;
+}
+.inspireher{
+    border-bottom:3px solid #6a2307 ;
+}
+#main-logo{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.inner{
+    background-color: white;
+    text-align: left;
+    padding-bottom: 80px;
+    border-top:3px solid #6a2307;
+    border-bottom:3px solid #6a2307;
+}
+.main{
+    padding:10px;
+}
+#p2{
+    float:left;
+}
+#p3{
+    border-top:3px solid #6a2307;
+    padding: 5px;
+    padding-top:8px ;
+}
+#content-pic{
+    width:200px;
+    height:200px;
+}
+#foot-logo{
+    text-align: center;
+    width:100px;
+    height:50px;
+}
+.text{
+    font-family: roboto;
+    font-weight:400;
+}
+.social-media{
+    background-color: #6a2307;
+    padding:5px;
+    height: 35px;
+}
+.media{
+    padding-right:50px;
+    padding-left:50px;
+}
+a.media:link
+{
+   color: white;
+   text-decoration: none;
+}
+a.media:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.media:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a.media:active
+{
+   color: white;
+   text-decoration: none;
+}
+    </style>
+    <title>ACM-W</title>
+</head>
+<body>
+    <div class="container z-depth-4">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/AritriBasu/InspiHERemail/master/ACM-Wf.png" id="head-logo">
+        </div>
+        <div class="inner">
+            <div class="inspireher">
+                <img src="https://raw.githubusercontent.com/AritriBasu/InspiHERemail/master/inspiHER_logo_new.jpeg" alt="inpiHERlogo" id="main-logo">
+            </div>
+            <div class="main">
+                <h4 id="heading">Respected Ma’am,</h4>
+                <p id="p1" class="text">We are the ACM-W VIT community, an initiative by our student chapter ACM-VIT. 
+                    Our goal is to empower women and encourage them to actively participate in the field of technology. We are striving to do so by engaging them by organizing various events that educate and inspire them. One such event undertaken by us is the inspiHER initiative which aspires to connect young girls with women leaders of the tech community.</p>
+            
+                    <p id="p2">
+                        <img src="https://raw.githubusercontent.com/AritriBasu/InspiHERemail/master/heroes.png" alt="content-pic" id="content-pic">
+                        <p class="text">We would greatly appreciate your participation in our upcoming edition of inspiHER. This segment will entail a 15-20 minute interview with a member of our core as interview and you as the interviewee. 
+                            You will be asked a few questions, talking about your career and sharing a few experiences. The InspiHER series will be up on our social media handles in a video format and on spotify as a podcast to increase outreach.</p>
+                    </p>
+            
+                <p class="text" id="p3">Your participation in this program will greatly encourage and inspire young girls out there, therefore, we would be thrilled to be graced by your presence. We look forward to an early response.</p>
+            
+                <p4 class="text" id="p4">
+                    <br>
+                    <br>
+                    Thanking you
+                    <br>
+                    Aritri Basu
+                    <br>
+                    General Secretary
+                    <br>
+                    ACM-W VIT Student Committee
+            </p4>
+            </div>
+        </div>
+
+        <div class="footer">
+            <img src="https://raw.githubusercontent.com/AritriBasu/InspiHERemail/master/asdc.jpeg" alt="women-logo" id="foot-logo">
+            <div class="social-media">
+                <a href="https://www.instagram.com/acmwvit/" target ="_blank" class="media"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="https://www.facebook.com/ACMWVIT/" target ="_blank" class="media"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="https://twitter.com/ACMW_VIT/" class="media" target ="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+            </div>
+        </div>
+       
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
